@@ -42,5 +42,5 @@ GPS_HANDLER = CommandHandler("gps", gps)
 dispatcher.add_handler(GPS_HANDLER)
 
 
-__command_list__ = ["gps"]
+__command_list__ = ["Gps"]
 __handlers__ = [GPS_HANDLER]
