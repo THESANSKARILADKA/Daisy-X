@@ -540,7 +540,7 @@ __help__ = f"""
 
 Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect \
 you and your groups by removing spam flooders as quickly as possible.
-*Note:* Users can appeal gbans or report spammers at @{SUPPORT_CHAT}
+*Note:* Users can appeal gbans or report spammers at @Hitomi_support!
 
 This also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
 *What is SpamWatch?*
@@ -562,7 +562,7 @@ dispatcher.add_handler(UNGBAN_HANDLER)
 dispatcher.add_handler(GBAN_LIST)
 dispatcher.add_handler(GBAN_STATUS)
 
-__mod_name__ = "Anti-Spam"
+__mod_name__ = "AntiSpam"
 __handlers__ = [GBAN_HANDLER, UNGBAN_HANDLER, GBAN_LIST, GBAN_STATUS]
 
 if STRICT_GBAN:  # enforce GBANS if this is set
