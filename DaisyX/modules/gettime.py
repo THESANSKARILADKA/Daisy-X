@@ -96,5 +96,5 @@ TIME_HANDLER = DisableAbleCommandHandler("time", gettime)
 
 dispatcher.add_handler(TIME_HANDLER)
 
-__command_list__ = ["time"]
+__command_list__ = ["Time"]
 __handlers__ = [TIME_HANDLER]
