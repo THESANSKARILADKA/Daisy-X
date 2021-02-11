@@ -524,12 +524,12 @@ __help__ = """
 Some other regex filters are:
 `goodmorning`, `good morning` or `goodnight`, `good night`.
 
-Suzuya will reply random strings accordingly when these words are used!
+Hitomi will reply random strings accordingly when these words are used!
 All regex filters can be disabled incase u don't want... like: `/disable goodnight`.
 
 """
 
-__mod_name__ = "Memes 😜"
+__mod_name__ = "Memes"
 
 
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat)
