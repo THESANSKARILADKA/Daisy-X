@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-Hey There {}! My name is {}!
+Hlo Ser My Name Is Hitomi!
 I am an anime themes group management bot!
 For reporting bugs join @Hitomi_Support
 """
