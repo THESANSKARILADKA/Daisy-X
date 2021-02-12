@@ -62,7 +62,7 @@ from DaisyX.modules.helper_funcs.chat_status import is_user_admin
 from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
-PM_START_TEXT = """
+PM_START_TEXT = f"""
 Hey There {}! My name is {}!
 I am an anime themes group management bot!
 For reporting bugs join our [support group](https://t.me/hitomi_support)
