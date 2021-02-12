@@ -70,7 +70,7 @@ For reporting bugs join our [support group](https://t.me/hitomi_support)
 
 buttons = [
     [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_menu"),
     ],
     [
         InlineKeyboardButton(
